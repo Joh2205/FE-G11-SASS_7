@@ -2,7 +2,10 @@
 @charset 'UTF-8';
 
 // Importaciones Abstracts
-@import 'abstracts/variables';
+@import 
+  'abstracts/variables',
+  'abstracts/mixin';
+
 
 // Vendors
 
@@ -23,7 +26,7 @@
   'components/button';
 
 @import
-'theme/main';
+'themes/main';
 
 
 // Shame on you
